@@ -1,4 +1,302 @@
 :root {
-  --basic-text: #434455;
-  --header-text: #2e2f42;
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+  --font-main: Roboto, sans-serif;
+}
+/* ========================
+   BASE STYLES
+   ======================== */
+body {
+  font-family: var(--font-main);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: var(--color-slate);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+/* HEADER ==============================================================================*/
+.header {
+}
+.header-nav {
+}
+.web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-navy-blue);
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-contacts-list {
+}
+.header-contacts-item {
+}
+/* ----------------------------------HADER LINC---------------------------------------- */
+.header-linc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+.header-linc:hover,
+.header-linc:focus {
+  color: var(--color-ocean);
+}
+.header-contacts {
+}
+/* ....................................HEADER NOMBER, MAIL.................................... */
+.header-nomber,
+.header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.header-nomber:hover,
+.header-nomber:focus {
+  color: var(--color-ocean);
+}
+/*  ========================================MAIN=========================================*/
+.main {
+}
+/*  ======================================CARD==========================================*/
+
+.card {
+  background-color: var(--color-grey);
+}
+.card-head {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+/* ..................................CARD BUTTON.........................................*/
+.card-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--color-iris);
+}
+.card-button:hover,
+.card-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+/* ==================================DESCRIPTION======================================= */
+
+.description {
+}
+.description-list {
+}
+.description-item {
+}
+.description-head {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.description-uppertitle {
+}
+/*  =================================DEMO===============================================*/
+.demo {
+}
+.demo-head,
+.team-head {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+.demo-list {
+}
+.demo-item {
+}
+.demo-image {
+}
+/* =======================================TEAM========================================= */
+.team {
+  background: var(--color-cloud);
+}
+.team-head {
+}
+.team-list {
+}
+.team-item {
+  background: var(--color-white);
+}
+.team-image {
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.team-uppertitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+/* ===============================FOOTER=============================================== */
+.footer {
+  background-color: var(--color-grey);
+}
+.web-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-cloud);
+}
+.footer-uppertitle {
+  color: var(--color-cloud);
+}
+
+=============================================================================================================
+/* PORTFOLIO.HTML */
+=============================================================================================================
+.main-portfolio {
+}
+/* ------------------------------------------------ORGANIZER------------------------------------------- */
+.organayzer {
+}
+.organayzer-list {
+}
+.organayzer-item {
+}
+/* -----------------------------------------------------BTN-------------------------------------------------- */
+.organayzer-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+}
+.organayzer-btn:hover,
+.organayzer-btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+.organayzer-btn {
+}
+/*---------------------------------------------------- FIRST-------------------------------------------- */
+.first {
+}
+.first-list {
+}
+.first-item {
+}
+.first-had {
+}
+.first-uppertitle {
+}
+/* -----------------------------------------------------SECOND------------------------------------------ */
+.second {
+}
+.second-list {
+}
+.second-item {
+}
+.second-head {
+}
+.second-uppertitle {
+}
+/* ---------------------------------------------------THETY--------------------------------------------- */
+.thety {
+}
+.thety-list {
+}
+.thety-item {
+}
+.thety-head {
+}
+.thety-uppertitle {
 }
