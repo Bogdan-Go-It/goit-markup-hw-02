@@ -105,7 +105,7 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-grey);
+  color: var(--color-slate);
   font-style: normal;
 }
 .header-nomber:hover,
@@ -256,7 +256,7 @@ h3 {
 
 .portfolio-btn {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
