@@ -99,7 +99,6 @@ h3 {
   font-style: normal;
 }
 /* ....................................HEADER NOMBER, MAIL.................................... */
-.header-nomber,
 .header-mail {
   font-weight: 500;
   font-size: 16px;
@@ -107,10 +106,6 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--color-slate);
   font-style: normal;
-}
-.header-nomber:hover,
-.header-nomber:focus {
-  color: var(--color-ocean);
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -274,7 +269,7 @@ h3 {
 }
 .portfolio-list {
 }
-.first-head {
+.first-had {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
