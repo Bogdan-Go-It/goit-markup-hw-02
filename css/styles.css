@@ -17,6 +17,7 @@
    BASE STYLES
    ======================== */
 body {
+  font-family: var(--font-main);
   background-color: var(--color-white);
   font-family: var(--font-main);
   font-style: normal;
@@ -87,6 +88,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  font-style: normal;
 }
 .header-linc:hover,
 .header-linc:focus {
@@ -102,7 +104,7 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
+  color: var(--color-grey);
 }
 .header-nomber:hover,
 .header-nomber:focus {
@@ -216,7 +218,7 @@ h3 {
   background-color: var(--color-grey);
 }
 . .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -228,15 +230,11 @@ h3 {
   color: var(--color-iris);
 }
 .studio-footer {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--color-cloud);
 }
 .footer-uppertitle {
@@ -274,34 +272,20 @@ h3 {
 }
 .organayzer-btn {
 }
-/*---------------------------------------------------- FIRST-------------------------------------------- */
-.first {
+.portfolio-list {
 }
-.first-list {
+.portfolio-linc {
+  font-style: normal;
 }
-.first-item {
+.portfolio-img {
 }
 .first-had {
 }
 .first-uppertitle {
 }
-/* -----------------------------------------------------SECOND------------------------------------------ */
-.second {
-}
-.second-list {
-}
-.second-item {
-}
 .second-head {
 }
 .second-uppertitle {
-}
-/* ---------------------------------------------------THETY--------------------------------------------- */
-.thety {
-}
-.thety-list {
-}
-.thety-item {
 }
 .thety-head {
 }
