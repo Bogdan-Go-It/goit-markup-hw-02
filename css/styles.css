@@ -274,7 +274,7 @@ h3 {
 }
 .portfolio-list {
 }
-.portfolio-linc > h2 {
+.first-head {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -284,7 +284,7 @@ h3 {
 
   color: var(--color-grey);
 }
-.portfolio-linc > p {
+.first-uppertitle {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
