@@ -17,8 +17,8 @@
    BASE STYLES
    ======================== */
 body {
+  background-color: var(--color-white);
   font-family: var(--font-main);
-
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -31,6 +31,9 @@ body {
 }
 .link {
   text-decoration: none;
+}
+.logo {
+  font-family: Raleway, sans-serif;
 }
 h3 {
   font-weight: 500;
@@ -45,20 +48,8 @@ h3 {
 }
 .header-nav {
 }
-.web {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-iris);
-}
 .studio {
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -70,6 +61,16 @@ h3 {
   color: var(--color-navy-blue);
 }
 .header-logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
 }
 .header-list {
 }
@@ -92,6 +93,7 @@ h3 {
   color: var(--color-ocean);
 }
 .header-contacts {
+  font-style: normal;
 }
 /* ....................................HEADER NOMBER, MAIL.................................... */
 .header-nomber,
@@ -104,6 +106,10 @@ h3 {
 }
 .header-nomber:hover,
 .header-nomber:focus {
+  color: var(--color-ocean);
+}
+.header-mail:hover,
+.header-mail:focus {
   color: var(--color-ocean);
 }
 /*  ========================================MAIN=========================================*/
@@ -124,6 +130,8 @@ h3 {
 }
 /* ..................................CARD BUTTON.........................................*/
 .card-button {
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -207,8 +215,8 @@ h3 {
 .footer {
   background-color: var(--color-grey);
 }
-.web-footer {
-  font-family: "Raleway";
+. .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -219,7 +227,7 @@ h3 {
   text-transform: uppercase;
   color: var(--color-iris);
 }
-.footer-logo {
+.studio-footer {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -235,9 +243,9 @@ h3 {
   color: var(--color-cloud);
 }
 
-=============================================================================================================
-/* PORTFOLIO.HTML */
-=============================================================================================================
+/*=============================================================================================================
+  PORTFOLIO.HTML 
+  =============================================================================================================*/
 .main-portfolio {
 }
 /* ------------------------------------------------ORGANIZER------------------------------------------- */
@@ -249,11 +257,11 @@ h3 {
 }
 /* -----------------------------------------------------BTN-------------------------------------------------- */
 .organayzer-btn {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--color-iris);
