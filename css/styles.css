@@ -87,7 +87,7 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-grey);
+  color: var(--color-slate);
   font-style: normal;
 }
 .header-linc:hover,
@@ -100,11 +100,11 @@ h3 {
 /* ....................................HEADER NOMBER, MAIL.................................... */
 .header-nomber,
 .header-mail {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-grey);
+  color: var(--color-slate);
 }
 .header-nomber:hover,
 .header-nomber:focus {
@@ -217,19 +217,7 @@ h3 {
 .footer {
   background-color: var(--color-grey);
 }
-. .footer-logo {
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-iris);
-}
-.studio-footer {
+..studio-footer {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -274,8 +262,22 @@ h3 {
 }
 .portfolio-list {
 }
-.portfolio-linc {
+.portfolio-linc > h2 {
+  font-family: "Roboto";
   font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.portfolio-linc > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 .portfolio-img {
 }
