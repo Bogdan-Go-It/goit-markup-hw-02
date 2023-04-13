@@ -242,7 +242,21 @@ h3 {
 .organayzer-item {
 }
 /* -----------------------------------------------------BTN-------------------------------------------------- */
-.organayzer-btn {
+
+.portfolio-btn {
+}
+.btn-all {
+}
+.btn-website {
+}
+.btn-app {
+}
+.btn-design {
+}
+.btn-marketing {
+}
+
+.portfolio-btn {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -253,8 +267,8 @@ h3 {
   color: var(--color-iris);
   background-color: var(--color-cloud);
 }
-.organayzer-btn:hover,
-.organayzer-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
