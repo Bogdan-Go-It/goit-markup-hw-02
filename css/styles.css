@@ -281,9 +281,10 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-   line-height: 1.2
-  color: var(--color-navy-blue);
+
+  color: var(--color-grey);
 }
 .portfolio-linc > p {
   font-family: "Roboto";
